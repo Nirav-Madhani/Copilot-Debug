@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "name": "Python Debug Demo",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "python",
+        "debug.allowBreakpointsEverywhere": true,
+        "debug.openDebug": "openOnDebugBreak",
+        "files.associations": {
+            "*.py": "python"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.debugpy"
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "copilot-debug-tool",
+  "displayName": "Copilot Debug Tool",
+  "description": "Expose VS Code debugging commands as an Agent‑callable tool.",
+  "version": "0.0.1",
+  "publisher": "Nirav-Madhani",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copilot-debug-tool.startDebug",
+        "title": "Start Debug Session",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.continue",
+        "title": "Continue Debug",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.pause",
+        "title": "Pause Debug",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.stepOver",
+        "title": "Step Over",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.stepInto",
+        "title": "Step Into",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.stepOut",
+        "title": "Step Out",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.stop",
+        "title": "Stop Debug",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.addBreakpoint",
+        "title": "Add Breakpoint",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.debug",
+        "title": "Execute Debug Action",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.getVariables",
+        "title": "Get Debug Variables",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.evaluateExpression",
+        "title": "Evaluate Expression",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.getCallStack",
+        "title": "Get Call Stack",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.debugStatus",
+        "title": "Debug Status",
+        "category": "Copilot Debug"
+      },
+      {
+        "command": "copilot-debug-tool.showUI",
+        "title": "Show Debug UI",
+        "category": "Copilot Debug"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/vscode": "^1.94.0"
+  }
+}
