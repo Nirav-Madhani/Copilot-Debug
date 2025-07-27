@@ -1,5 +1,7 @@
 # Copilot Debug Tool Extension
 
+> ⚡ **Early stage project - feedback is welcome, but expect some bugs along the way**
+
 A VS Code extension that exposes debugging commands as agent-callable tools for GitHub Copilot integration, enabling AI-controlled debugging through natural language commands.
 
 ## 🎯 Overview
