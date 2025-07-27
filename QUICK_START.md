@@ -2,9 +2,9 @@
 
 ## 🚀 GET STARTED IN 3 STEPS
 
-1. **Setup**: Install the extension from `copilot-debug-tool/` folder 
+1. **Setup**: Build and install the extension from `copilot-debug-tool/` folder (see main README for installation steps)
 2. **Open UI**: Use `Ctrl+Shift+P` → "Copilot Debug: Show Debug UI"
-3. **Debug**: Set breakpoint at line 20, click "Start Debug", then "Get Variables"
+3. **Debug**: Set breakpoint at line 12, click "Start Debug", then "Get Variables"
 
 ## 🎮 KEY COMMANDS
 
@@ -18,14 +18,14 @@
 
 ## 📍 RECOMMENDED BREAKPOINTS
 
-- **Line 20**: `for num in numbers:` - Main loop start
-- **Line 24**: `square = num * num` - Variable calculations  
-- **Line 35**: `results.append(...)` - After result creation
-- **Line 60**: `for i in range(n):` - Fibonacci loop start
+- **Line 12**: `for num in numbers:` - Main loop start
+- **Line 13**: `square = num * num` - Variable calculations  
+- **Line 15**: `results.append(...)` - After result creation
+- **Line 34**: `for i in range(2, n):` - Fibonacci loop start
 
 ## 🎯 TYPICAL WORKFLOW
 
-1. Set breakpoint at line 20
+1. Set breakpoint at line 12
 2. Click "Start Debug" in UI
 3. When paused, click "Get Variables" to see: `num=2, square=4, sum_total=2`
 4. Click "Step Over" to next line

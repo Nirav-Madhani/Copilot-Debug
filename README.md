@@ -60,7 +60,6 @@ copilot-debug-tool/          # VS Code extension source
 
 python-debug-demo/          # Python demo workspace
 ├─ simple_debug.py          # Simple debugging practice file
-├─ sample_app.py           # Alternative demo scenarios
 └─ README.md               # Demo-specific documentation
 
 .github/
@@ -141,9 +140,14 @@ vscode.commands.executeCommand('copilot-debug-tool.debug', {
 - GitHub Copilot extension (for AI features)
 
 ### Installation
-1. Install the extension from `copilot-debug-tool/copilot-debug-tool-nirav-0.0.2.vsix`
-2. Reload VS Code
-3. Use `Ctrl+Shift+P` → "Copilot Debug: Show Debug UI"
+1. Clone this repository
+2. Navigate to the extension directory: `cd copilot-debug-tool`
+3. Install dependencies: `npm install`
+4. Build the extension: `npm run compile`
+5. Package the extension: `npx vsce package`
+6. Install the generated .vsix file in VS Code
+7. Reload VS Code
+8. Use `Ctrl+Shift+P` → "Copilot Debug: Show Debug UI"
 
 ### For Python Demo
 1. Copy `.github/` folder to `python-debug-demo/`

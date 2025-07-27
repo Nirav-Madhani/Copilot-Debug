@@ -53,7 +53,7 @@ All debug commands are available through the Command Palette (`Ctrl+Shift+P`):
 1. Open your Python file (e.g., `simple_debug.py`)
 2. Run "Copilot Debug: Show Debug UI" from Command Palette
 3. In the UI:
-   - Add a breakpoint: Enter file path and line number (e.g., line 24)
+   - Add a breakpoint: Enter file path and line number (e.g., line 12)
    - Click "Start Debug" to begin debugging
    - When paused at breakpoint, click "Get Variables" to see current values
    - Use step controls to navigate through code
@@ -62,9 +62,9 @@ All debug commands are available through the Command Palette (`Ctrl+Shift+P`):
 ## Installation
 
 1. Clone or download this repository
-2. Navigate to the extension directory
+2. Navigate to the extension directory: `cd copilot-debug-tool`
 3. Install dependencies: `npm install`
-4. Compile the extension: `npm run compile`
+4. Build the extension: `npm run compile`
 5. Package the extension: `npx vsce package`
 6. Install the generated .vsix file in VS Code
 

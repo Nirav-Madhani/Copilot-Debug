@@ -46,13 +46,13 @@ def main():
     
     print(f"Input numbers: {numbers}")
     
-    # Calculate squares - SET BREAKPOINT at line 20 (for loop)
+    # Calculate squares - SET BREAKPOINT at line 12 (for loop)
     results, total = calculate_squares(numbers)
     
     print(f"Results: {results}")
     print(f"Total of all squares: {total}")
     
-    # Generate Fibonacci sequence - SET BREAKPOINT at line 60 (for loop)  
+    # Generate Fibonacci sequence - SET BREAKPOINT at line 34 (for loop)  
     fib_count = 8
     fibonacci_nums = fibonacci_simple(fib_count)
     
